@@ -1,0 +1,10 @@
+POST /upload/single HTTP/1.1
+Host: localhost:3001
+Content-Type: multipart/form-data; boundary=lamb
+
+--lamb
+Content-Disposition:from-data;name="avatar";filename="zrn.jpg"
+Content-Type: image/jpeg
+
+< ./6347f077-511d-4e7a-832c-1aa977e79eeb.jpg
+--lamb--
